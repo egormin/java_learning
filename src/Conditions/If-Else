@@ -24,11 +24,11 @@ public class Temp {
     public static void main(String[] args) {
         int money = 400;
 
-        if (money > 500){
+        if (money >= 500){
             System.out.println("Buy pizza");
-        } else if (money > 300) {
+        } else if (money >= 300) {
             System.out.println("Buy shaurma");
-        } else if (money > 100) {
+        } else if (money >= 100) {
             System.out.println("Buy gamburger");
         }
         else {
@@ -36,3 +36,4 @@ public class Temp {
         }
     }
 }
+
