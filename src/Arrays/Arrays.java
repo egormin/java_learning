@@ -76,6 +76,10 @@ public class Arrays {
         mnogoAr[0][1] = 2;
         mnogoAr[1][0] = 3;
         mnogoAr[1][1] = 4;
-
     }
+        //Objavlenie massivo i odnovremenno initsializatsiya ego znacheniyami
+        int [] newArr = {31,28,30,31};
+        for(int i: newArr){
+            System.out.println(i);
+        }
 }
