@@ -37,3 +37,20 @@ public class Temp {
     }
 }
 
+
+        String first = "Hello";
+        String second = "World";
+
+        // Not correct to compare strings with ==
+        if (first == second){
+            System.out.println("equals");
+        } else {
+            System.out.println("Not equals");
+        }
+
+        // equals method is correct
+        if (first.equals(second)){
+            System.out.println("equals");
+        } else {
+            System.out.println("Not equals");
+        }
