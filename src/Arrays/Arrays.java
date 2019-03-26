@@ -82,4 +82,36 @@ public class Arrays {
         for(int i: newArr){
             System.out.println(i);
         }
+    
+    /* Sozdat strokovyi massiv s nazvaniyami mesiatsev i proinitsializirovats srazu.
+        Posle etogo vivesti nazvaniya vseh mesiatsev v odnu stroku i cherez zapiatuyu, f posle poslednego mesiatsa - tochka
+         */
+
+        String[] months = {
+                "january",
+                "february",
+                "march",
+                "april",
+                "may",
+                "june",
+                "july",
+                "august",
+                "september",
+                "october",
+                "november",
+                "december"
+        };
+
+        int count = 0;
+
+        while (count < months.length){
+
+            if (count == months.length -1) {
+                System.out.print(months[count] + ".");
+            }
+            else {
+                System.out.print(months[count] + ", ");
+            }
+            count++;
+        }
 }
