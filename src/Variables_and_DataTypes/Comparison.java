@@ -31,9 +31,11 @@ public class Comparison {
         bool myBool = (2>3) && ++c==6; //tak kak pervaya chast false vtoraya dazhe ne budet schitatsya i c ostanetsya ravnym 5
         System.out.println(c); //5
         
-        //Bitwise operators | &
+        //Bit wise operators (pobitovoe sravnenie) | &
         int c = 5;
         bool myBool = (2>3) && ++c==6; // Pri ispolzovanoo bitwise operatorov, vtoraya chast virazheniya budet vsegda vipolniatsya
         System.out.println(c); //6
+        
+        
     }
 }
