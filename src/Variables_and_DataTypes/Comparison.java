@@ -36,6 +36,19 @@ public class Comparison {
         bool myBool = (2>3) && ++c==6; // Pri ispolzovanoo bitwise operatorov, vtoraya chast virazheniya budet vsegda vipolniatsya
         System.out.println(c); //6
         
+        //^ - exclusive or
+        bool a = false;
+        bool b = true;
+        bool c = true
+        
+        System.out.println(a^b^c); //false
+        
+        bool a = false;
+        bool b = false;
+        bool c = true
+        System.out.println(a^b^c); //true. true when only one true
+            
+        
         
     }
 }
