@@ -1,0 +1,18 @@
+package OOP.Classes;
+
+public class TestClass {
+    public static void main(String[] args) {
+        System.out.println("TestClass");
+    }
+}
+
+//public class TestClassNew {  public mozhet bit tolko 1
+class TestClassNew {    // Executable class
+    public static void main(String[] args) {
+        System.out.println("TestClassNew");
+    }
+}
+
+class TestExecutable{   // Not executable class. Tak kak net metoda main
+
+}
