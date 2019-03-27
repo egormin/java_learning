@@ -25,5 +25,11 @@ public class Comparison {
 
         result = value1 != value2;
         System.out.println(value1 + "!=" + value2 + ": " + result); // 5!=10: true
+       
+        //Short circuit operation
+        int c = 5;
+        bool myBool = (2>3) && ++c==6; //tak kak pervaya chast false vtoraya dazhe ne budet schitatsya i c ostanetsya ravnym 5
+        System.out.println(c); //5
+        
     }
 }
