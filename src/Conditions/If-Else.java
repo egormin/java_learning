@@ -7,6 +7,15 @@ public class Temp {
         } else {
             System.out.println("Temperature less than 25");
         }
+        
+        // Kratkaya forma zapisi. Tolko odno virazhenie
+        if (temper > 25) 
+            System.out.println("Temperature more than 25");
+        else
+            System.out.println("Temperature less than 25");
+        
+        // Kratkaya forma zapisi. Mozhno i tak
+        if (temper > 25) System.out.println("Temperature more than 25");
 
         if (temper > 25) {
             System.out.println("Temperature more than 25");
