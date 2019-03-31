@@ -5,6 +5,7 @@ public class For {
         for (int i = 0; i <= 10; i+=2){  // S shagom 2
             System.out.println(i);
         }
+        // i ne dostupen za predelami tsikla
 
         //vivesti chisla ot 1000 do 0 kotorie deliatsia na 3 bez ostatka
         for (int i = 1000; i >= 0; i--){
