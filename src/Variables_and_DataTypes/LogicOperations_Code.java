@@ -6,14 +6,14 @@ public class Code {
         System.out.println("Source symbol " + character + " in char table: " + (byte)character);
 
         character = (char)(character ^ code);
-        System.out.println("Encrypted character: " + character);
+        System.out.println("Encrypted character: " + character + " in char table: " + (byte)character);
 
         character = (char)(character ^ code);
-        System.out.println("Decrypted character: " + character);
+        System.out.println("Decrypted character: " + character + " in char table: " + (byte)character);
 
 //        Source symbol A in char table: 65
-//        Encrypted character: D
-//        Decrypted character: A
+//        Encrypted character: D in char table: 68
+//        Decrypted character: A in char table: 65
 
     }
 }
