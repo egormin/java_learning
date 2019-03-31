@@ -35,5 +35,17 @@ public class While {
         }
         result = count/ (float)start;
         System.out.println("Result = " + result);
+        
+        // continue
+        int xx = 5;
+        while (xx > 0) {
+            xx--;
+            if (xx == 4) continue;
+            System.out.println(xx);
+//            3
+//            2
+//            1
+//            0
+        }
     }
 }
