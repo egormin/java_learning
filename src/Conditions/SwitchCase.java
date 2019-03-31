@@ -95,6 +95,60 @@ public class SwitchCase {
             default: System.out.println("Incorrect month"); break;
         }
         
+        //-------------------
+        Scanner input = new Scanner(System.in);
+        System.out.println("Please Enter day of week:");
+
+        int day = input.nextInt();
+
+        // Ispolzovanie {} v case ne obiazatelno
+        switch (day) {
+            case 1: // provalivanie
+            case 2:
+            case 3:
+            case 4:
+            case 5:
+                System.out.println("It's a working day");
+                break;
+            case 6:
+            case 7:
+                System.out.println("It's a weekend day");
+                break;
+            default:
+                System.out.println("Wrong day number");
+                break;
+        }
+
+        //-------------------
+        // Kofe apparat
+        System.out.println("Koffee cups sizes: 1 - small; 2 - middle; 3 - big");
+        System.out.println("Please make your choice:");
+
+        Scanner apparatInput = new Scanner(System.in);
+        int choice = input.nextInt();
+
+        int cost = 0;
+
+        switch (choice) {
+            case 3:
+                cost += 50;
+            case 2:
+                cost += 25;
+            case 1:
+                cost += 25;
+                break;
+            default:
+                System.out.println("Incorrect choice. please enter again");
+        }
+
+        if (cost !=0){
+            System.out.println("Please, pay " + cost + " cents");
+            System.out.println("Thank you");
+        } else {
+            System.out.println("Please make your choice");
+        }
+
+        System.out.println(choice);
     }
 
 }
