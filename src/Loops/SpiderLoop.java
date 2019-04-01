@@ -28,6 +28,7 @@ public class SpiderLoop {
                     break;
                 default:
                     System.out.println("Alternative exit");
+                    break;
             }
             break;     // Prerivanie
         }
