@@ -1,3 +1,5 @@
+// Prostaya rekursiya - kogda method vizivaet sam sebya
+
 package Methods;
 
 public class SimpleRecursion {
