@@ -19,7 +19,7 @@ public class Example_Naibolshiy_Obschiy_Delitel {
         System.out.println("a=" + a + ", b=" + b + ", NOD=" + (calculate2(a,b)));   // a=676, b=3676, NOD=4
     }
 
-    // Vtoroy variant
+    // Vtoroy variant (bez rekursii)
     static int calculate2(int a, int b) {
         while (b != 0)
             b = a % (a = b);
