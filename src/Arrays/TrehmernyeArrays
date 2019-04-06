@@ -1,0 +1,72 @@
+package Arrays;
+
+public class TrehmernyiArray {
+    public static void main(String[] args) {
+        int [][][] trehArr = new int[2][2][2];
+
+        trehArr[0][0][0] = 111;
+        trehArr[0][0][1] = 112;
+        trehArr[0][1][0] = 121;
+        trehArr[0][1][1] = 122;
+        trehArr[1][0][0] = 211;
+        trehArr[1][0][1] = 212;
+        trehArr[1][1][0] = 221;
+        trehArr[1][1][1] = 222;
+
+        for (int i =0; i<2;i++){
+            for (int j =0; j<2;j++){
+                for (int k=0; k<2; k++){
+                    System.out.print(trehArr[i][j][k] + " ");
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+        //111 112
+        //121 122
+        //
+        //211 212
+        //221 222
+
+        //// Another example
+        int threeArr [][][] ={
+                {
+                        {2,4,5},
+                        {3,66,7},
+                        {44,66,8}
+                },
+                {
+                        {42,55,8},
+                        {45,66,88},
+                        {244,555,4}
+                },
+                {
+                        {422,5335,455},
+                        {4534,626,8823},
+                        {2,55335,34}
+                }
+        };
+
+        for (int i =0; i<3;i++){
+            for (int j =0; j<3;j++){
+                for (int k=0; k<3; k++){
+                    System.out.print(threeArr[i][j][k] + " ");
+                }
+                System.out.println();
+            }
+            System.out.println();
+        }
+
+        //2 4 5
+        //3 66 7
+        //44 66 8
+        //
+        //42 55 8
+        //45 66 88
+        //244 555 4
+        //
+        //422 5335 455
+        //4534 626 8823
+        //2 55335 34
+    }
+}
