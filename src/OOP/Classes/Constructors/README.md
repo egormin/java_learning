@@ -3,9 +3,9 @@
 ***Конструктор*** - специальный метод для создания экземпляра класса (инициализации объекта). Имя конструктора соответствует имени класса.
 ```
 public Car(String model, int maxSpeed, int speed) {
-this.model = model;
-this.maxSpeed = maxSpeed;
-this.speed = speed;
+  this.model = model;
+  this.maxSpeed = maxSpeed;
+  this.speed = speed;
 }
 ```
 Если не задать конструктор явно в классе, то JVM при компиляции создаст конструктор по умолчанию.
