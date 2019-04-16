@@ -9,7 +9,7 @@ public class Main {
 
         doSmth();       // Hello!  Tak kak metod v samom classe, to imz classa mozhno ne ispolzovat
 
-        //System.out.println(count);  // error.  Ne staticheckoe pole ne mozhet byt vyzvano iz staticheskogo metoda
+        //System.out.println(count);  // error.  Ne staticheckoe pole ne mozhet byt vyzvano iz staticheskogo metoda, a iz obychnogo mozhet
         // Nado tak:
         Main m = new Main();
         System.out.println(m.count);
@@ -17,5 +17,10 @@ public class Main {
 
     public static void doSmth() {
         System.out.println("Hello!");
+    }
+    
+    public void doSmth1() {
+        System.out.println("Hello!");
+        System.out.println(count);  // iz obychnogo mozhno
     }
 }
